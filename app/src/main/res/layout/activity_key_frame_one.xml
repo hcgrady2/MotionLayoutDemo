@@ -1,15 +1,14 @@
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/motionLayout"
-    app:layoutDescription="@xml/scene_two"
+    app:layoutDescription="@xml/scene_key_frame"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.constraintlayout.utils.widget.ImageFilterView
-        android:id="@+id/image"
-        android:src="@drawable/ic_baseline_photo_size_select_actual_24"
-        android:scaleType="centerCrop"
-        android:layout_width="match_parent"
-        android:layout_height="300dp" />
+    <View
+        android:id="@+id/button"
+        android:background="@color/colorAccent"
+        android:layout_width="64dp"
+        android:layout_height="64dp" />
 
 </androidx.constraintlayout.motion.widget.MotionLayout>

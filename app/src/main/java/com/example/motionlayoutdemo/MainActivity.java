@@ -21,6 +21,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void imageDemo(View view) {
-        startActivity(new Intent(MainActivity.this,ImageDemo.class));
+
     }
 }
