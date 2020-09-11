@@ -22,6 +22,7 @@
         <activity android:name=".KeyFrameCircle"/>
         <activity android:name=".KeyFrameValue"/>
         <activity android:name=".fragment.FragmentMainActivity"/>
+        <activity android:name=".Example.ExampleOneActivity"/>
     </application>
 
 </manifest>
