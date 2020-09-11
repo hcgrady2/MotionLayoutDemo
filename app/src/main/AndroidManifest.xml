@@ -18,6 +18,10 @@
         </activity>
 
         <activity android:name=".DemoOne"/>
+        <activity android:name=".KeyFrameDemoOne"/>
+        <activity android:name=".KeyFrameCircle"/>
+        <activity android:name=".KeyFrameValue"/>
+        <activity android:name=".fragment.FragmentMainActivity"/>
     </application>
 
 </manifest>
