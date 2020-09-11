@@ -1,7 +1,7 @@
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/motionLayout"
-    app:layoutDescription="@xml/scene_key_frame"
+    app:layoutDescription="@xml/scene_06"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
