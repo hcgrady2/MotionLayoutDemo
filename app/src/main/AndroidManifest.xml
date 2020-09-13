@@ -23,6 +23,7 @@
         <activity android:name=".KeyFrameValue"/>
         <activity android:name=".fragment.FragmentMainActivity"/>
         <activity android:name=".Example.ExampleOneActivity"/>
+        <activity android:name=".Example.ExampleMainActivity"/>
     </application>
 
 </manifest>

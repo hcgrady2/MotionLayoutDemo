@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.motionlayoutdemo.Example.ExampleMainActivity;
 import com.example.motionlayoutdemo.Example.ExampleOneActivity;
 import com.example.motionlayoutdemo.fragment.FragmentMainActivity;
 
@@ -43,5 +44,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void ExampleOne(View view) {
         startActivity(new Intent(MainActivity.this, ExampleOneActivity.class));
+    }
+
+    public void ExampleMain(View view) {
+        startActivity(new Intent(MainActivity.this, ExampleMainActivity.class));
     }
 }
