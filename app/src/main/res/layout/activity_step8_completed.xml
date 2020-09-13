@@ -30,7 +30,7 @@
             android:layout_height="match_parent"
             android:minHeight="80dp"
             app:layout_scrollFlags="scroll|enterAlways|snap|exitUntilCollapsed"
-            app:layoutDescription="@xml/step8"
+            app:layoutDescription="@xml/step7_completed"
             app:motionDebug="SHOW_PATH">
 
 
