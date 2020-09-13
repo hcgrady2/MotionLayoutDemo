@@ -1,11 +1,13 @@
-package com.example.motionlayoutdemo;
+package com.example.motionlayoutdemo.steps;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class DemoOne extends AppCompatActivity {
+import com.example.motionlayoutdemo.R;
+
+public class StepOneActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

@@ -6,90 +6,114 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="简单示例"
         android:layout_marginTop="20dp"
-        android:text="入门"
-        android:onClick="demoOne"
+        android:onClick="stepOne"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="关键位置修改路径"
         android:layout_marginTop="20dp"
-        android:text="关键帧布局"
-        android:onClick="keyFrameDemo"
+        android:onClick="stepTwo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@id/button1" />
+
+
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="复杂路径"
+        android:onClick="stepThree"
         android:layout_marginTop="20dp"
-        android:text="关键帧周期"
-        android:onClick="keyFrameCircle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@id/button2" />
+
+
+
 
     <Button
+        android:onClick="stepFour"
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="改变属性"
         android:layout_marginTop="20dp"
-        android:text="关键帧插值"
-        android:onClick="keyFrameValue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@id/button3" />
+
+
 
 
     <Button
+        android:onClick="stepFive"
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="改变自定义属性"
         android:layout_marginTop="20dp"
-        android:text="Fragment 转换"
-        android:onClick="FragmentChange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
-
-
+        app:layout_constraintTop_toBottomOf="@id/button4" />
 
 
 
 
     <Button
+        android:onClick="stepSix"
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="View 联动"
         android:layout_marginTop="20dp"
-        android:text="Example One"
-        android:onClick="ExampleOne"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@id/button5" />
+
+
+
 
 
     <Button
+        android:onClick="ExampleOne"
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="示例"
         android:layout_marginTop="20dp"
-        android:text="Example Main"
-        android:onClick="ExampleMain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@id/button6" />
+
+
+
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="代码演示"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button7" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

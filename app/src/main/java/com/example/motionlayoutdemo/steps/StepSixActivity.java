@@ -1,4 +1,4 @@
-package com.example.motionlayoutdemo.Example;
+package com.example.motionlayoutdemo.steps;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -10,7 +10,7 @@ import androidx.constraintlayout.motion.widget.MotionLayout;
 import com.example.motionlayoutdemo.R;
 import com.google.android.material.appbar.AppBarLayout;
 
-public class ExampleMainActivity extends AppCompatActivity {
+public class StepSixActivity extends AppCompatActivity {
 
     private static final String TAG = "ExampleMainActivity";
 
