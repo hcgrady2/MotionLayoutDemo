@@ -13,6 +13,6 @@ public class ExampleMainActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_step7_with_hint);
+        setContentView(R.layout.activity_step1);
     }
 }
