@@ -24,8 +24,10 @@
         <activity android:name=".fragment.FragmentMainActivity"/>
         <activity android:name=".Example.ExampleOneActivity"/>
         <activity android:name=".steps.StepSixActivity"/>
-
-
+        <activity android:name=".steps.StepTwoActivity"/>
+        <activity android:name=".steps.StepThreeActivity"/>
+        <activity android:name=".steps.StepFourActivity"/>
+        <activity android:name=".steps.StepFiveActivity"/>
         <activity android:name=".Example.ShowExampleActivity"/>
     </application>
 
